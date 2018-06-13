@@ -31,5 +31,5 @@ sequenceDiagram
   Qualtrics-&gt;&gt;FrontEnd: Display final data, simple plots.
   Qualtrics-&gt;&gt;FrontEnd: Download all data")
 </code></pre>
-<p><img src="./img/FlowChart.png" alt="FlowChart"></p>
+<p><img src="./FlowChart.png" alt="FlowChart"></p>
 
