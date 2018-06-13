@@ -19,17 +19,9 @@
 <li><strong>Download data</strong> for any other demonstrations</li>
 </ol>
 <p>More completely, here’s the general process that we’ll want the program to go through for each request:</p>
-<pre><code>mermaid("
-sequenceDiagram
-  FrontEnd-&gt;&gt;BackEnd: Set survey parameters
-  BackEnd-&gt;&gt;Qualtrics: Create survey
-  Qualtrics-&gt;&gt;BackEnd: Return survey address
-  BackEnd-&gt;&gt;MTurk: Create online data collection ticket
-  MTurk--&gt;&gt;BackEnd: Communicate collection status, finished status
-  Qualtrics--&gt;&gt;FrontEnd: Stream incoming data. Display results.
-  MTurk-&gt;&gt;BackEnd: Confirm finished
-  Qualtrics-&gt;&gt;FrontEnd: Display final data, simple plots.
-  Qualtrics-&gt;&gt;FrontEnd: Download all data")
+<pre class=" language-undefined"><code class="prism language-) language-undefined">
+![FlowChart](./FlowChart.png)
+
+
 </code></pre>
-<p><img src="./FlowChart.png" alt="FlowChart"></p>
 
